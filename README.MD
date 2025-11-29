@@ -15,7 +15,6 @@ O sistema tem como objetivo atuar como um **CRM (Customer Relationship Managemen
 * **Linguagem:** SQL
 * **Banco de Dados:** SQLite
 * **Ferramenta de Desenvolvimento:** SQLiteStudio
-* **Modelagem:** brModelo / diagrams.net
 
 ## 🗂️ Estrutura do Banco de Dados
 O banco de dados `db_ecred` foi modelado seguindo as formas normais (até a 3FN) e é composto pelas seguintes tabelas principais:
@@ -34,7 +33,6 @@ Para testar o projeto em sua máquina, siga a ordem de execução dos scripts ab
 ### 1. Criação da Estrutura (DDL)
 Execute o arquivo `1_estrutura.sql`.
 * Este script cria todas as tabelas e define as Chaves Primárias (PK) e Estrangeiras (FK).
-* **Importante:** O comando `PRAGMA foreign_keys = ON;` é executado para garantir a integridade referencial no SQLite.
 
 ### 2. Inserção de Dados (DML - Insert)
 Execute o arquivo `2_insercao.sql`.
@@ -49,11 +47,7 @@ Execute o arquivo `3_consultas.sql`.
 Execute o arquivo `4_atualizacao_exclusao.sql`.
 * Contém exemplos práticos de manutenção de dados, como atualização de telefone de cliente e correção de status de atendimento.
 
-## 📝 Diagrama Entidade-Relacionamento (DER)
-
-*(Opcional: Se você quiser, pode salvar a imagem do seu diagrama na pasta do projeto e colocar o link aqui, ex: `![Diagrama do Banco](imagem_diagrama.png)`)*
-
-## 👨‍💻 Autor
+## 👨‍💻 Eduardo Cortes Bica
 
 **Eduardo**
 * Estudante de Análise e Desenvolvimento de Sistemas
